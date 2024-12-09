@@ -1,7 +1,7 @@
 # CreditFraudDetection
 
 ## Introducció
-L'Objectiu d'aquest projecte es trobar un model que obtingui la màxima F1-score possible per a la detecció d'operacions bancàries fraudulentes
+L'objectiu d'aquest projecte es trobar un model que obtingui la màxima F1-score possible per a la detecció d'operacions bancàries fraudulentes
 
 ## Dataset
 [Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
