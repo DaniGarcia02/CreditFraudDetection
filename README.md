@@ -37,6 +37,14 @@ Per la cerca d'hiperparàmetres sense aplicar overfitting he utilitzat la funci�
 
 ## Resultats
 Els resultats obtinguts amb XGBoost han sigut els següents:
--Sense Oversampling 
 
--Amb Oversampling
+Sense Oversampling
+<br>
+  <img src ="https://github.com/DaniGarcia02/CreditFraudDetection/blob/main/img/pr_curve_best.png">
+<br>
+
+Amb Oversampling
+<br>
+  <img src ="https://github.com/DaniGarcia02/CreditFraudDetection/blob/main/img/pr_curve_oversampling.png">
+<br>
+
