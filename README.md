@@ -10,11 +10,11 @@ Aquest dataset conté transaccions bancaries fetes al Septembre de 2013 per dive
 El dataset conté les transaccions que van ocurrir durant 2 dies on 492 van ser fraudulentes de 284807 en total.
 
 Les entrades del dataset només contenen dades numèriques que son el resultat d'aplicar la transformació PCA, degut a temes de confidiencialitat no es pot saber clarament que representa cada columna o valor.
-Les úniques columnes sense ser transformada son 'Time', 'Amount' i 'Class'. La Feature 'Time' respresenta el temps que ha passat des de la primera entrada del dataset, la feature 'Amount' representa la quantitat de diners de la transacció i la Feature 'Class' ens diu si aquesta transacció es fraudulenta o no.
+Les úniques columnes sense ser transformades son 'Time', 'Amount' i 'Class'. La Feature 'Time' respresenta el temps que ha passat des de la primera entrada del dataset, la feature 'Amount' representa la quantitat de diners de la transacció i la Feature 'Class' ens diu si aquesta transacció es fraudulenta o no.
 
 ## Metodologia
 ### Mètrica
-Degut al gran imbalanceig de dades que n'hi ha la mètrica que utilitzaré serà F1-Score, això es degut a que en un cas amb dades imbaalancejades com aquest el que volem minimitzar son els casos False Positive i False Negative. En aquestcas concret una predicció False Positive provocaria que la targeta de crèdit d'un client es bloquejés sense que aquest hagi comés una infracció, en canvi, una predicció False Negative significa que hi ha hagut una transacció fraudulenta que no hem identificat. Ambdós casos son dolents per això volem utilitzar F1-Score en comptes de només precision o recall.
+Degut al gran imbalanceig de dades que n'hi ha la mètrica que utilitzaré serà F1-Score, això es degut a que en un cas amb dades imbalancejades com aquest el que volem minimitzar son els casos False Positive i False Negative. En aquest cas concret una predicció False Positive provocaria que la targeta de crèdit d'un client es bloquejés sense que aquest hagi fet una infracció, en canvi, una predicció False Negative significa que hi ha hagut una transacció fraudulenta que no hem identificat. Ambdós casos son dolents per això volem utilitzar F1-Score en comptes de només precision o recall.
 
 ### Tractament de l'imbalanceig de dades
 Per tractar amb l'imbalanceig de dades utilitzo dues tècniques:
