@@ -23,12 +23,12 @@ Per tractar amb l'imbalanceig de dades utilitzo dues tècniques:
 
 ### Models
 He pobat diferents models per poder comparar els seus resultats, els models utilitzats han sigut:
--Linear Regression
--K Nearest Neighbours
--Linear SVM
--Decision Tree
--Random Forest
--XGBoost
+- Linear Regression.
+- K Nearest Neighbours.
+- Linear SVM.
+- Decision Tree.
+- Random Forest.
+- XGBoost.
 
 Finalment degut tant als seus resultats i al temps d'execució el millor model ha sigut XGBoost.
 
